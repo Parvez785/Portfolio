@@ -81,6 +81,28 @@ Moreover the navbar is responsive for mobile version
             </div>
           </Col>
         </Row>
+        <Row className='justify-content-center '>
+        <Col md="6" lg="4" className='py-5'>
+            <div className='card pb-3'>
+              <img src='https://i.postimg.cc/ZYpWhRKp/Screenshot-2023-11-27-T122532-667.png' alt="CryptoWorld" className="card-img" />
+              <h3 className="text-center text-white">CryptoWorld</h3>
+              <div className='chips d-flex justify-content-center'>
+                <p className='chip bg-success'>javascript</p>
+                <p className='chip bg-warning'>css</p>
+                <p className='chip bg-secondary'>html</p>
+                <p className='chip bg-danger'>material UI</p>
+                <p className="chip bg-primary">React</p>
+              </div>
+              <span className='text-center text-white py-1'>
+              Introducing CryptoWorld – your simple and powerful crypto companion. Dive into real-time data on various cryptocurrencies with our user-friendly app. Experience personalized exploration through dynamic routing, easily navigating individual coin pages with insightful graphs. Stay in the loop with timely updates on prices and market trends.. Simplify your crypto experience – download CryptoView now 
+              and step confidently into the world of digital assets!
+              </span>
+              <div class="card-button text-center">
+                <a className='Card-btn text-decoration-none' rel="noopener" target="_blank" href="https://crypto-world-mu.vercel.app/">Check it out</a>
+              </div>
+            </div>
+          </Col>
+        </Row>
       </Container>
     </div>
   )

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Swiper, SwiperSlide,Autoplay } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y,Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 import './Slide.css'
 import 'swiper/css/autoplay'
@@ -25,8 +25,12 @@ export default function Slide() {
     <span className="text-white ">The list of skills will continue to grow. Learning new tech is one of my top priorities.</span>
     </div>
     <Swiper
-     modules={[Navigation, Pagination, Scrollbar, A11y]}
+     modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
      pagination={{ clickable: true }}
+     autoplay={{
+      delay: 2500,
+      disableOnInteraction: false,
+    }}
      spaceBetween={50}
      Navigation
      breakpoints={{
