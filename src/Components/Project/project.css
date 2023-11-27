@@ -1,10 +1,10 @@
 
 .main-bg{
-    background-color: #07192F;
+    background-color: #07192F !important;
 }
 .card{
-    background-color: #404040;
-    border: 2px solid #000;
+    background-color: #404040 !important;
+    border: 2px solid #000 !important;
     border-radius: 20px;
     
 }
@@ -21,8 +21,8 @@
 .Card-btn{
     display: block;
     margin: 10px auto ;
-    background-color: orange;
-    border: 1px solid #000;
+    background-color: orange !important;
+    border: 1px solid #000 !important;
     border-radius: 20px;
     color: #000;
  padding: 5px 10px;
