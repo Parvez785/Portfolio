@@ -40,6 +40,9 @@ a{
 .hamburger{
     display: none;
 }
+button.button-main a {
+    color: #ffc200 !important;
+}
 
 @media screen  and (max-width:600px){
     
