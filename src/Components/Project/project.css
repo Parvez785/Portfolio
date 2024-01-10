@@ -12,6 +12,12 @@
    width:346px;
    height:240px;
 }
+img.card-img 
+{
+border-radius: 18px;
+height: 240px;
+padding: 10px;
+}
 .chip{
     padding:1px 4px;
     border-radius: 10px;
@@ -60,11 +66,52 @@ span.text-center.text-white.py-1 {
    }
 }
 
-   @media screen and (min-width:768px) and (max-width:1080px) {
+   @media screen and (min-width:768px) and (max-width:1180px) {
     .card-img {
         border-radius: 18px;
-    width:325px}
+        width: auto;}
     .chip {
         padding: 1px 3px;}
+        canvas.vanta-canvas {
+            height: 681px !important;
+        }
+        div#skills {
+            margin-top: -292px;
+        }
+        .chip {
+            padding: 1px 4px;
+            border-radius: 10px;
+            margin: 0px 5px;
+            font-size: 10px;
+        }
    }
+   
+   @media screen and (min-width:820px) and (max-width:1180px){
+    div#skills {
+        margin-top: -440px;
+    }
+   }
+
+   @media screen and (min-width:1024px) and (max-width:1180px){
+    div#skills {
+        margin-top: -620px;
+    }
+   }
+   @media screen and (min-width:1024px) and (max-width:600px){
+    div#skills {
+        margin-top: 120px;
+    }
+   }
+   @media screen and (min-width:616px) and (max-width:768px){
+    div#skills {
+        margin-top: 80px !important;
+    }
+   }
+   @media screen and (min-width:912px) and (max-width:1368px){
+    div#skills {
+        margin-top: -620px !important;
+    }
+   }
+  
+  
    

@@ -81,10 +81,7 @@ Moreover the navbar is responsive for mobile version
               </div>
             </div>
           </Col>
-        </Row>
-        <Row>
-       
-        <Col md="6" lg="4" className='py-5'>
+          <Col md="6" lg="4" className='py-5'>
             <div className='card pb-3'>
               <img src='https://i.postimg.cc/ZYpWhRKp/Screenshot-2023-11-27-T122532-667.png' alt="CryptoWorld" className="card-img" />
               <h3 className="text-center text-white">CryptoWorld</h3>
