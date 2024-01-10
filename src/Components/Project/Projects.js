@@ -61,7 +61,10 @@ export default function Projects() {
               </div>
             </div>
           </Col>
-          <Col md="6" lg="4" className='py-5'>
+        
+        </Row>
+        <Row>
+        <Col md="6" lg="4" className='py-5'>
             <div className='card pb-3'>
               <img src='https://i.postimg.cc/7Y4nHG0H/Screenshot-2023-10-02-T105614-423.png' alt="ip tracker" className="card-img" />
               <h3 className="text-center text-white">Hoobank</h3>
@@ -80,8 +83,6 @@ Moreover the navbar is responsive for mobile version
               </div>
             </div>
           </Col>
-        </Row>
-        <Row className='justify-content-center '>
         <Col md="6" lg="4" className='py-5'>
             <div className='card pb-3'>
               <img src='https://i.postimg.cc/ZYpWhRKp/Screenshot-2023-11-27-T122532-667.png' alt="CryptoWorld" className="card-img" />
